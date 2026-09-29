@@ -1,0 +1,4 @@
+Place your own music file here as:
+assets/music.mp3
+
+The website intentionally ships without copyrighted music.
