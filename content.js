@@ -11,7 +11,7 @@ const birthdaySections = [
     "so kaha se start kroo....",
     "haa....",
     "first of all A very happy birthday to you devi j...... 🎂🎉\nmany many happy returns of the day....... 🥳✨",
-    "aap hamesha khush rahe...... 😊\nfit n fine rho..... padhti raho... aage badhtii raho..... 🌸",
+    "aap hamesha khush rahooo...... 😊\nfit n fine rho..... padhti raho... aage badhtii raho..... 🌸",
     "i wish k aap wo sb kuch achive kroo that you  desire ( only condition is k wo harmful n ho and that should be good for you and your life ) ...... ✨",
     "ab kaise batau prr tum sb k milna is definitely a miracle for me coz i was never good enough to be with people like you all ....... 🥹",
     "everyone told me throughout my life that i'm not good enough ....\nnot good enough to have friends... ya mere jaise logo k dost nhi bantee... koi mujh jaise ladke se kyu h dosti karega.....",
