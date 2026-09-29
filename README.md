@@ -1,4 +1,4 @@
-# Birthday Letter — Anwesha
+# Birthday Letter
 
 A static, dark cinematic birthday-letter website with the original message preserved, integrated photos/videos, responsive layout, side-memory scrapbook effects, and optional background music.
 
