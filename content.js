@@ -3,7 +3,7 @@
 const birthdaySections = [
   [
     "helooooo anweshhaaaaa... 👋",
-    "good morning yrr.... 🌅",
+    "greetings yrr .... \n I hope you tum ekdum mast hogi.... 🌅",
     "dekho yrr disclaimer Pehle h deta hu..... 😅",
     "Thod lenthhy ho sakta hai.... coz ..... i don't know what i'm  going to write because i don't know how i can express my sentiments or my feeling in this msg through words .... ❤️",
     "but atleast I will try....... 🤞",
