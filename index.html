@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="A private digital birthday letter.">
+  <title>For Anwesha — A Birthday Letter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="password-gate" id="passwordGate" aria-label="Private birthday letter access">
+    <div class="password-gate-inner">
+      <div class="password-spark" aria-hidden="true">✦</div>
+      <p class="password-eyebrow">A PRIVATE DIGITAL LETTER</p>
+      <h1 class="password-title">For Anwesha</h1>
+      <p class="password-subtitle">A little something is waiting for you.....</p>
+      <form class="password-form" id="passwordForm" autocomplete="off">
+        <label class="sr-only" for="passwordInput">Enter password</label>
+        <div class="password-field-wrap">
+          <input id="passwordInput" class="password-input" type="password" inputmode="text"
+            autocomplete="off" spellcheck="false" placeholder="Enter the password....."
+            aria-describedby="passwordError" required>
+          <button class="password-toggle" id="passwordToggle" type="button"
+            aria-label="Show password" aria-pressed="false">◉</button>
+        </div>
+        <button class="password-submit" type="submit">
+          <span>Enter Letter</span><span aria-hidden="true">→</span>
+        </button>
+        <p class="password-error" id="passwordError" role="alert" aria-live="polite"></p>
+      </form>
+      <div class="password-footer">
+        <span>✦</span><span>only for you</span><span>✦</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="ambient" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grain"></div>
+    <div class="stars"></div>
+    <div class="birthday-dust"></div>
+  </div>
+
+  <div class="progress-wrap" aria-hidden="true"><div class="progress"></div></div>
+
+  <header class="floating-ui" aria-label="Letter controls">
+    <button class="minimal-btn" id="letterBtn" type="button" aria-label="Return to the beginning">✦ <span>Letter</span></button>
+    <div class="header-right">
+      <span class="section-count" id="sectionCount">01 / 07</span>
+      <button class="minimal-btn music-btn" id="musicBtn" type="button" aria-label="Play or pause music" aria-pressed="false">
+        <span id="musicIcon">♫</span><span>Music</span>
+      </button>
+    </div>
+  </header>
+
+  <aside class="memory-rail memory-left" aria-hidden="true"><div id="memoryLeft"></div></aside>
+  <aside class="memory-rail memory-right" aria-hidden="true"><div id="memoryRight"></div></aside>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="heroTitle">
+      <div class="hero-inner">
+        <div class="spark" aria-hidden="true">✦</div>
+        <p class="eyebrow">A PRIVATE DIGITAL LETTER</p>
+        <h1 id="heroTitle">HAPPY BIRTHDAY</h1>
+        <div class="hero-name">Anwesha</div>
+        <p class="hero-note">"I wrote something<br>for you....."</p>
+        <button class="begin-btn" id="beginBtn" type="button">
+          <span>Begin Reading</span><span aria-hidden="true">→</span>
+        </button>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span>scroll slowly</span><i></i></div>
+    </section>
+
+    <section class="letter" id="letter" aria-label="Birthday letter">
+      <div class="letter-intro">
+        <span class="tiny-label">THE LETTER</span>
+        <p>Take your time.....</p>
+      </div>
+      <div id="content"></div>
+    </section>
+
+    <section class="ending" id="ending" aria-label="End of letter">
+      <div class="ending-inner">
+        <div class="spark" aria-hidden="true">✦</div>
+        <div class="ending-label">THE END</div>
+        <p class="final-birthday">HAPPY BIRTHDAY <span aria-hidden="true">❤️</span></p>
+        <div class="thank-you-divider" aria-hidden="true"><span>✦</span></div>
+        <p class="thank-you">Thank you for reading it all.....</p>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bgAudio" preload="none" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
